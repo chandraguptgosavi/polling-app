@@ -1,11 +1,11 @@
 import express from "express";
 import cors from "cors";
-import { PORT } from "./../config";
+import { CLIENT_URL, PORT } from "./../config";
 import pollRouter from "./routes/poll";
 
 const app = express();
 
-app.use(cors({ origin: "*" }));
+app.use(cors({ origin: CLIENT_URL }));
 app.use(express.json());
 
 app.use("/polls", pollRouter);

@@ -13,3 +13,5 @@ export const AIVEN_PG_PASSWORD = process.env.AIVEN_PG_PASSWORD;
 export const AIVEN_PG_HOST = process.env.AIVEN_PG_HOST;
 export const AIVEN_PG_DATABASE = process.env.AIVEN_PG_DATABASE;
 export const AIVEN_PG_PORT = process.env.AIVEN_PG_PORT;
+
+export const CLIENT_URL = process.env.CLIENT_URL;
